@@ -1,0 +1,149 @@
+.form-check{
+  display: inline-block;
+  margin-right:3%;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.registerForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.gender{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.doctorDetails .form-group{
+  width: 100%;
+}
+
+.no-chronic-illness{
+  background-color: rgb(223, 220, 220);
+  color: rgb(0, 0, 0);
+}
+
+i{
+  font-size: 25px;
+}
+
+.outer-container{
+  padding: 3% 0;
+}
+
+.container{
+  background-color: white;
+  width: 60%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 15px;
+}
+
+.dlt{
+  margin-top: 2.6%;
+}
+
+.dlt:hover{
+    color: brown;
+}
+
+.heading{
+  color: #0074d9;
+}
+
+.password {
+  position: relative;
+}
+
+.showPasswordIconButton{
+  position: absolute;
+  right: 0.01%;
+  bottom: -10%;
+}
+
+.required-asterisk{
+  color : red;
+}
+
+.errored-input{
+  border-color : #dc3545;
+}
+
+.bi-info-lg{
+  font-size: 16px;
+}
+
+.error-message{
+  display: none;
+  padding: 5px;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  white-space: nowrap;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: black;
+  border-radius: 0.25rem;
+  opacity: 0;
+  pointer-events: none;
+  padding: 0.25rem 0.5rem;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.tooltip.show {
+  opacity: 0.9;
+}
+
+.tooltip .arrow {
+  position: absolute;
+  display: block;
+  width: 0.8rem;
+  height: 0.4rem;
+}
+
+.tooltip .arrow::before {
+  position: absolute;
+  content: '';
+  border-color: rgba(0, 0, 0, 0.85);
+  border-style: solid;
+}
+
+.tooltip .arrow::before {
+  bottom: 0;
+}
+
+.tooltip .arrow::before,
+.tooltip .arrow::after {
+  width: 0.8rem;
+  height: 0.4rem;
+  border-width: 0.4rem;
+  transform: rotate(45deg);
+}
+
+.tooltip .arrow::after {
+  position: absolute;
+  content: '';
+  border-color: transparent;
+  border-style: solid;
+  bottom: 0;
+  margin-left: -0.4rem;
+}
+
+.countryCode{
+  width: 50%;
+}

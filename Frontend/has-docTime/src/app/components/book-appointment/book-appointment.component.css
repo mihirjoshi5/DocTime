@@ -1,0 +1,176 @@
+.form-check{
+  display: inline-block;
+  margin-right:3%;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.registerForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.gender{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.doctorDetails .form-group{
+  width: 100%;
+}
+
+
+i{
+  font-size: 25px;
+}
+
+.outer-container{
+  padding: 3% 0;
+}
+
+/* .container{
+  background-color: white;
+  width: 70%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 15px;
+} */
+
+.dlt{
+  margin-top: 2.6%;
+}
+
+.dlt:hover{
+    color: brown;
+}
+
+.heading{
+  color: #0074d9;
+}
+
+.no-symptom{
+  background-color: rgb(223, 220, 220);
+  color: rgb(0, 0, 0);
+}
+
+.required-asterisk{
+  color : red;
+}
+
+.bi-arrow-left-circle-fill{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.row{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-heading{
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.form-select, .form-control{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.select-field{
+  width: 60%;
+}
+
+.add-symptom-btn{
+  text-decoration: underline;
+  background-color: #b8b1b1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding: 0 10px;
+  padding-top: 5px;
+}
+
+.bi-trash-fill{
+  font-size: 20px;
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+}
+
+.textarea {
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+  background-color: white;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Enter Description";
+  color: gray;
+}
+
+.book-btn{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bi-x-lg{
+  font-size: 15px;
+}
+
+.label{
+  width: 10rem;
+}
+
+.value{
+  width: 20rem;
+}
+
+.field{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+}
+
+.timeSlot-select{
+  height: fit-content;
+}
+
+.pagination li{
+  cursor: pointer;
+}
+
+#datePicker::-webkit-inner-spin-button,
+#datePicker::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.noData{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.noData p{
+  margin-top: 2.5%;
+  font-size: 2rem;
+}
+
+.show-doctor{
+  min-height: 500px;
+}
+
